@@ -1,4 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #CCC;
+}
+header h1{
+    font-weight: 700;
+    color: #FF6D00;
+}
+h1{
+    color: #3C0A6D;
+}
 .menu-topo ul li{
     list-style: none;
     display: inline;
+}
+
+footer{
+    text-align: center;
 }
