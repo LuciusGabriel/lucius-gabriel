@@ -14,13 +14,17 @@ header h1{
 h1{
     color: #3C0A6D;
 }
-.menu-topo ul li{
-    list-style: none;
-    display: inline;
+.titulo-pagina{
+    font-size: 3.5em;
 }
-
-#contato{
-    
+.titulo-pagina:hover{
+    color: #CCC;
+}
+.nav-link{
+    color: #a873dc;
+}
+.nav-link:hover{
+    color: #ee9551;
 }
 
 footer{
