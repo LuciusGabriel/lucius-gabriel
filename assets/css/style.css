@@ -12,6 +12,7 @@ header h1{
     color: #FF6D00;
 }
 h1{
+    font-size: 45px;
     color: #3C0A6D;
 }
 .titulo-pagina{
@@ -28,10 +29,15 @@ h1{
 }
 
 .slider{
-    height: 90vh;
+    height: 92vh;
     background-color: #c7a4e9;
     background-image: url('../img/001.jpg');
     object-fit: cover;
+}
+#sobre img{
+    width: 25%;
+    border-radius: 50%;
+    border: #ffffff 1px solid;
 }
 
 
