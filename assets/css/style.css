@@ -34,11 +34,19 @@ h1{
     background-image: url('../img/001.jpg');
     object-fit: cover;
 }
+.container-sobre{
+    display: flex;
+}
+.image{
+    width: 30%
+}
 #sobre img{
-    width: 25%;
+    width: 80%;
     border-radius: 50%;
     border: #ffffff 1px solid;
 }
+
+
 
 
 footer{
