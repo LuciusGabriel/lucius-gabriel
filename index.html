@@ -101,44 +101,55 @@
             <div id="portfolio">
                 <h1>Portfólio</h1>
                 <section id="portfolio">
-                  <div class="project">
-                    <img src="project1.jpg" alt="Project 1">
-                    <div class="project-info">
-                      <h3>Project 1</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna vel faucibus interdum, risus nisl malesuada velit, a dignissim augue magna vel risus. </p>
+                  <div class="projects-container">
+                    <div class="project">
+                      <img src="project1.jpg" alt="Project 1">
+                      <div class="project-info">
+                        <h3>Project 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna vel faucibus interdum, risus nisl malesuada velit, a dignissim augue magna vel risus. </p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="project">
-                    <img src="project2.jpg" alt="Project 2">
-                    <div class="project-info">
-                      <h3>Project 2</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna vel faucibus interdum, risus nisl malesuada velit, a dignissim augue magna vel risus. </p>
+                    <div class="project">
+                      <img src="project2.jpg" alt="Project 2">
+                      <div class="project-info">
+                        <h3>Project 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna vel faucibus interdum, risus nisl malesuada velit, a dignissim augue magna vel risus. </p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="project">
-                    <img src="project3.jpg" alt="Project 3">
-                    <div class="project-info">
-                      <h3>Project 3</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna vel faucibus interdum, risus nisl malesuada velit, a dignissim augue magna vel risus. </p>
-                    </div>
-                  </div>
-                  <div class="project">
-                    <img src="project4.jpg" alt="Project 4">
-                    <div class="project-info">
-                      <h3>Project 4</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna vel faucibus interdum, risus nisl malesuada velit, a dignissim augue magna vel risus. </p>
+                    <div class="project">
+                      <img src="project3.jpg" alt="Project 3">
+                      <div class="project-info">
+                        <h3>Project 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna vel faucibus interdum, risus nisl malesuada velit, a dignissim augue magna vel risus. </p>
+                      </div>
                     </div>
                   </div>
                 </section>
                 
+                
             </div>
             <div id="contato" class="text-center">
                 <h1>Contato</h1>
-                <form action="">
-                    Nome <br> <input type="text" name="nome" id="nome"><br>
-                    Email <br> <input type="email" name="email" id="email"><br>
-                    Assunto <br><input type="text" name="assunto" id="assunto"><br>
-                    Mensagem<br><textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+                <form>
+                  <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Insira seu nome">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Insira seu email">
+                  </div>
+                  <div class="form-group">
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" class="form-control" id="assunto" placeholder="Insira o assunto">
+                  </div>
+                  <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea class="form-control" id="mensagem" placeholder="Insira sua mensagem"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <input type="submit" value="Enviar">
+                  </div>
                 </form>
             </div>
         </div>
