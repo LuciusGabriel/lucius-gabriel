@@ -27,11 +27,16 @@ h1{
 .nav-link:hover, .nav-link:focus{
     color: #ee9551;
 }
+ul svg:hover{
+  fill:#3C0A6D;
+}
 
 .slider{
     height: 92vh;
     background-color: #c7a4e9;
     background-image: url('../img/001.jpg');
+    background-position: center;
+    background-size: 100%;
     object-fit: cover;
 }
 .container-sobre{
