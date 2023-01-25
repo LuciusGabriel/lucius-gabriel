@@ -22,13 +22,10 @@ h1{
     color: #CCC;
 }
 .nav-link{
-    color: #a873dc;
+    color: #b97df5;
 }
 .nav-link:hover, .nav-link:focus{
     color: #ee9551;
-}
-ul svg:hover{
-  fill:#3C0A6D;
 }
 
 .slider{
@@ -37,6 +34,7 @@ ul svg:hover{
     background-image: url('../img/001.jpg');
     background-position: center;
     background-size: 100%;
+    background-repeat: no-repeat;
     object-fit: cover;
 }
 .container-sobre{
@@ -56,6 +54,7 @@ ul svg:hover{
     width: 100%; /* full width on small screens */
     margin: 0 auto;
     text-align: center;
+    background-color: #FFF;
   }
   
   /* Project container */
@@ -103,7 +102,8 @@ ul svg:hover{
   form {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 50%;
+    margin: 0 auto;
   }
 
   .form-group {
@@ -126,6 +126,9 @@ ul svg:hover{
 
   /* CSS para o layout responsivo */
   @media (max-width: 600px) {
+    form{
+      width: 80%;
+    }
     .form-group {
       width: 100%;
     }
