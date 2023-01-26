@@ -49,6 +49,16 @@ h1{
     border: #ffffff 1px solid;
 }
 
+#sobre h2{
+  font-size: 2em;
+  font-weight: 400;
+  color: #3C0A6D;
+}
+#sobre p{
+  margin-bottom: 0;
+  text-align: justify;
+}
+
 /* Portfolio section */
 #portfolio {
     width: 100%; /* full width on small screens */
@@ -98,7 +108,11 @@ h1{
   .project-info h3 {
     margin-bottom: 20px;
   }
+ 
   
+#contato{
+  margin-bottom: 30px;
+}
   form {
     display: flex;
     flex-wrap: wrap;
@@ -124,6 +138,20 @@ h1{
     border: 2px solid #555;
   }
 
+  .btn-enviar{
+    color: #3C0A6D;
+    width: 200px;
+    height: 35px;
+    background-color: #FFF;
+    border: none;
+  }
+
+  .btn-enviar:hover{
+    color: #FFF;
+    background-color: #7d45b5;
+
+  }
+
   /* CSS para o layout responsivo */
   @media (max-width: 600px) {
     form{
@@ -138,4 +166,6 @@ h1{
 
 footer{
     text-align: center;
+    padding: 1%;
+    background-color: #FFF;
 }
