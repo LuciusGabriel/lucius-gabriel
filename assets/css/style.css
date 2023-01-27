@@ -59,6 +59,16 @@ h1{
   text-align: justify;
 }
 
+.redes-sociais{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px 0 0 0;
+  width: 50%;
+}
+
 /* Portfolio section */
 #portfolio {
     width: 100%; /* full width on small screens */
