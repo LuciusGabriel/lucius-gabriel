@@ -43,7 +43,7 @@ h1{
 .image{
     width: 30%
 }
-#sobre img{
+#sobre .foto-sobre{
     width: 80%;
     border-radius: 50%;
     border: #ffffff 1px solid;

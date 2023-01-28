@@ -1,0 +1,1 @@
+const redesSociais = document.querySelector('.redes-sociais')
