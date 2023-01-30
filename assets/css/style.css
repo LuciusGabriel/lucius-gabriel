@@ -69,6 +69,16 @@ h1{
   width: 50%;
 }
 
+.linkedin{
+  background-image: url("../img/icons/linkedin-pb.svg");
+  height: 80px;
+  width: 80px;
+}
+.linkedin:hover{
+  background-image: url("../img/icons/linkedin-color.svg");
+  background-size: 80px;
+}
+
 /* Portfolio section */
 #portfolio {
     width: 100%; /* full width on small screens */

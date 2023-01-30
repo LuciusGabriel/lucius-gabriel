@@ -1,1 +1,3 @@
-const redesSociais = document.querySelector('.redes-sociais')
+const redesSociais = document.querySelectorAll('.redes-sociais img')
+
+console.log(redesSociais)
