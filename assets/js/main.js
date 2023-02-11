@@ -1,3 +1,8 @@
-const redesSociais = document.querySelectorAll('.redes-sociais img')
+const instagram = document.querySelector('.insta')
 
-console.log(redesSociais)
+instagram.addEventListener('mouseover', ()=>{
+    instagram.src = 'assets/img/icons/instagram-color.svg'
+    console.log('Passou')
+})
+
+console.log(instagram)
