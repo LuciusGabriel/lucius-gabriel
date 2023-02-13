@@ -20,6 +20,7 @@ h1{
 }
 .titulo-pagina:hover{
     color: #CCC;
+    cursor: pointer;
 }
 .nav-link{
     color: #b97df5;
