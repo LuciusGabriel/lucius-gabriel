@@ -4,5 +4,6 @@ instagram.addEventListener('mouseover', ()=>{
     instagram.src = 'assets/img/icons/instagram-color.svg'
     console.log('Passou')
 })
-
-console.log(instagram)
+instagram.addEventListener('mouseout', ()=>{
+    instagram.src = 'assets/img/icons/instagram-pb.svg'
+})
