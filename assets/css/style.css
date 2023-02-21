@@ -45,7 +45,7 @@ h1{
     width: 30%
 }
 #sobre .foto-sobre{
-    width: 80%;
+    width: 100%;
     border-radius: 50%;
     border: #ffffff 1px solid;
 }
@@ -68,16 +68,6 @@ h1{
   margin: 0 auto;
   padding: 15px 0 0 0;
   width: 50%;
-}
-
-.linkedin{
-  background-image: url("../img/icons/linkedin-pb.svg");
-  height: 80px;
-  width: 80px;
-}
-.linkedin:hover{
-  background-image: url("../img/icons/linkedin-color.svg");
-  background-size: 80px;
 }
 
 /* Portfolio section */
