@@ -50,11 +50,21 @@ h1{
     border: #ffffff 1px solid;
 }
 
+#sobre h1{
+  text-align: center;
+}
+.image{
+  margin-right: 1%;
+}
 #sobre h2{
   font-size: 2em;
   font-weight: 400;
-  color: #3C0A6D;
+  color: #ee9551;
 }
+#sobre h2:hover{
+  color:#3C0A6D;
+}
+
 #sobre p{
   margin-bottom: 0;
   text-align: justify;
