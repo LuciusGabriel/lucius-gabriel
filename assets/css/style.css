@@ -31,10 +31,9 @@ h1{
 
 .slider{
     height: 92vh;
-    background-color: #c7a4e9;
     background-image: url('../img/001.jpg');
     background-position: center;
-    background-size: 100%;
+    /* background-size: 100%; */
     background-repeat: no-repeat;
     object-fit: cover;
 }
@@ -76,7 +75,7 @@ h1{
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  padding: 15px 0 0 0;
+  padding: 15px 0 10px 0;
   width: 50%;
 }
 
@@ -100,6 +99,9 @@ h1{
     width: 100%; /* full width on small screens */
     text-align: left;
     margin-bottom: 50px; /* add some space between projects */
+  }
+  .project p{
+    text-align: justify;
   }
   
   @media (min-width: 768px) { /* medium screens */
