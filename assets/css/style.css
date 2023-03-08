@@ -92,6 +92,7 @@ h1{
     display: flex;
     flex-wrap: wrap; /* allows items to wrap onto multiple lines */
     justify-content: space-between;
+    margin: 0px 10px 0px 10px;
   }
   
   /* Project */
