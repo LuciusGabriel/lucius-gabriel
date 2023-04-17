@@ -44,7 +44,7 @@ h1{
     width: 30%
 }
 #sobre .foto-sobre{
-    width: 100%;
+    width: 20vw;
     border-radius: 50%;
     border: #ffffff 1px solid;
 }
@@ -184,7 +184,7 @@ h1{
     .form-group {
       width: 100%;
     }
-  }
+}
 
 
 
